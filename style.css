@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("fonts/minecraft_rus_regular.woff2") format("woff2"),
+         url("fonts/minecraft_rus_regular.woff") format("woff");
+}  
+
+
+body {
+    display: flex;
+    font-family: "CustomFont", sans-serif;
+    text-align: center;
+    background-image: url("png-klev-club-5cti-p-mainkraft-tsveti-png-2.png");
+    background-size: 150px ;
+    background-color: #fdeafc;
+    color: #1b010a;
+    padding: 20px; 
+    margin: 0; 
+    
+}
+
+h1 {
+    font-size: 2em; 
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.heart {
+    width: 250px;
+    height: 250px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.heart:hover {
+    transform: scale(1.2); 
+    color: #c2185b; /
+}
+@media (max-width: 320px) {
+    body {
+        padding: 10px; 
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .heart {
+        font-size: 2em; 
+    }
+}
+.iLoveYou{
+   display: flex;
+    text-align: center;
+    
+}
+.text{
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    background-color: #ff00667a;
+    border-radius: 15%;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
